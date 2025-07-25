@@ -34,14 +34,14 @@ Save the following code in a file named:
 
 Open a terminal and run:
 ```bash
-javac NumberGuessingGame.java
+java NumberGuessingGame.java
 
 ## 3. Run the program
 After successful compilation, run:
 
 java NumberGuessingGame
 
-###EXAMPLE OUTPUT:
+## EXAMPLE OUTPUT:
 
 
 Welcome to the Number Guessing Game!
