@@ -34,7 +34,7 @@ Save the following code in a file named:
 
 Open a terminal and run:
 ```bash
-java NumberGuessingGame.java
+javac NumberGuessingGame.java
 
 ## 3. Run the program
 After successful compilation, run:
