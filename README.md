@@ -1,29 +1,59 @@
 # 🎮 Number Guessing Game (Java)
 
-A simple console-based number guessing game written in Java. The game generates a random number between 1 and 100, and the player tries to guess it. The program gives hints if the guess is too high or too low and reports the number of attempts taken once the correct number is guessed.
+This is a simple Java console-based **Number Guessing Game**.  
+The program generates a random number between 1 and 100, and the user tries to guess it.  
+With each attempt, the program gives hints whether the guess is too low or too high.
 
-## 🧑‍💻 Features
+---
 
-- Random number generation between 1 and 100
-- Input validation for non-integer inputs
-- Feedback for each guess ("Too high", "Too low", or "Correct")
-- Count of attempts
-- Option to play multiple rounds
+## 📌 Features
 
-## 🚀 How to Run
+- Generates a random number between 1 and 100
+- User-friendly text interface
+- Input validation for non-integer values
+- Tracks number of attempts
+- Ends when the user guesses correctly
 
-### Prerequisites
+---
 
-- Java Development Kit (JDK) 8 or higher installed
-- A terminal or command prompt
+## 🧰 Requirements
 
-### Steps
+- Java Development Kit (JDK) 8 or higher
+- A terminal or command-line interface
 
-1. **Clone or download** this repository to your local machine.
+---
 
-2. **Navigate** to the folder containing the `NumberGuessingGame.java` file.
+## 🚀 How to Compile and Run
 
-3. **Compile the program** using the terminal:
+### 1. Save the Code
 
-   ```bash
-   javac NumberGuessingGame.java
+Save the following code in a file named:
+
+
+### 2. Compile the Program
+
+Open a terminal and run:
+```bash
+javac NumberGuessingGame.java
+
+## 3. Run the program
+After successful compilation, run:
+
+java NumberGuessingGame
+
+###EXAMPLE OUTPUT:
+
+
+Welcome to the Number Guessing Game!
+I'm thinking of a number between 1 and 100.
+Enter your guess: 30
+Too low! Try again.
+Enter your guess: 70
+Too high! Try again.
+Enter your guess: 50
+🎉 Congratulations! You guessed the number in 3 attempts.
+
+
+
+
+
